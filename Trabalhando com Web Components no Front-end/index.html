@@ -10,25 +10,26 @@
 </head>
 <body>
     <div class="container">
-        <div class="card">
-            <div class="card__left">
-                <span>By Allan Miranda</span>
-                <a href="#">Darth Vader contrata Devs</a>
-                <p>Darth Vader procura desenvolvedores que sabem trabalhar com components</p>
-
-            </div>
-            <div class="card__right">
-                <img src="assets\vader.png" alt="">
-
-            </div>
-        </div>
+        <card-news 
+            autor = "Allan Miranda"
+            title = "Darth Vader contrata"
+            link-url="htt://www.google.com"
+            photo = "assets/vader.png"
+            content = "Darth Vade procura desenvolvedores que sabem trabalhar com components">
+        </card-news>
+        <br>
+        <card-news 
+            title = "Yoda convence republica a utilizar components"
+            link-url="htt://www.google.com"
+            content = "Yoda se pronuncia e choca república.">
+        </card-news>
+  
+    
+    
+        <titulo-dinamico titulo="Notícia urgente"></titulo-dinamico>
+        <titulo-dinamico titulo="teste"></titulo-dinamico>
     </div>
 
-    <card-news></card-news>
-    <card-news></card-news>
-    <card-news></card-news>
-
-    <titulo-dinamico titulo="Notícia urgente"></titulo-dinamico>
-    <titulo-dinamico titulo="teste"></titulo-dinamico>
+    
 </body>
 </html>
