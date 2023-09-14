@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAL DE NOTÍCIAS GALACTICO</title>
+    <link rel="stylesheet" href="styles/card.css">
+    <script src="src/components/CardNews.js" defer></script> <!--defer informa que o navegador deve criar primeiro a DOM para depois anexar o Shadow DOM-->
+    <script src="src/components/TituloDinamico.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card__left">
+                <span>By Allan Miranda</span>
+                <a href="#">Darth Vader contrata Devs</a>
+                <p>Darth Vader procura desenvolvedores que sabem trabalhar com components</p>
+
+            </div>
+            <div class="card__right">
+                <img src="assets\vader.png" alt="">
+
+            </div>
+        </div>
+    </div>
+
+    <card-news></card-news>
+    <card-news></card-news>
+    <card-news></card-news>
+
+    <titulo-dinamico titulo="Notícia urgente"></titulo-dinamico>
+    <titulo-dinamico titulo="teste"></titulo-dinamico>
+</body>
+</html>
