@@ -1,0 +1,12 @@
+- Node (nodejs.org)
+
+- Visual Studio Code (www.code.visualstudio.com/)
+    - Angular Language Service
+    - Auto Close Tag
+    - Auto Rename Tag
+    - Tema (*opcional)
+    - Icones (*opcional)
+    - editorConfig, Prettier, eslint
+
+- Angular
+    -npm install - g @angular
