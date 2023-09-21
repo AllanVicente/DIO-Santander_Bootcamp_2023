@@ -6,7 +6,6 @@
 @ExbirNome //aplicar função decorarada função
 class Funcionario {}*/
 
-
 function apiVersion(version:string){
     return (target: any) =>{
         Object.assign(target.prototype,{__version: version});
@@ -32,8 +31,6 @@ function minLenght(lenght: number){
             get:getter,
             set:setter,
         });
-
-
     }
 }
 

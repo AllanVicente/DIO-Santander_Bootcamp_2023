@@ -1,0 +1,14 @@
+/* Add application styles & imports to this file! */
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  color: yellowgreen;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
