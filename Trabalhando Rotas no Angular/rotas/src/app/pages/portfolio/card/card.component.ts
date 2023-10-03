@@ -16,10 +16,11 @@ export class CardComponent {
     this.activeRoute.params.subscribe(
       res => console.log(res)
     )
-    //http://localhost:4200/portfolio/1?{name=felipe&token=123}
+
     this.activeRoute.firstChild?.queryParams.subscribe(
       res => console.log(res)
     )
+        //http://localhost:4200/portfolio/1?{name=felipe&token=123}
     this.activeRoute.queryParams.subscribe(
       res => console.log(res)
     )
